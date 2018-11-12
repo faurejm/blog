@@ -25,9 +25,11 @@ class BlogController extends AbstractController
    {
        $upper = ucwords(str_replace('-', ' ', $slug));
        return $this->render('slug.html.twig', ['slug' => $upper]);
+
    }
 
 }
+
 
 
 
